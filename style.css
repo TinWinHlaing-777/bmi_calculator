@@ -1,0 +1,130 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html,
+body,
+#intro{
+    height: 100%;
+}
+#intro{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/healthcare-1.webp)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav{
+    background-color: #FFD5D5;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: #FF7F2A;
+}
+#login{
+    border: none;
+    background-color: #E5D5FF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.view main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding-top: 350px;
+}
+.view main .text{
+    flex: 2;
+}
+.text h1{
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #ECF0F1 , #F2F3F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.view main .btn{
+    flex: 2;
+}
+.btn .btn1{
+    margin-right: 40px;
+    border: 2px solid #ffffff;
+    background: none;
+    font-family: 'Dancing Script', cursive;
+    color: #E59866;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.6s ease-in;
+}
+.btn .btn1:hover{
+    color: #E59866;
+    background-color: #ffffff;
+}
+.btn .btn2{
+    border: 2px solid #ffffff;
+    background: #E59866;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+.btn .btn2:hover{
+    color: #E59866;
+    background: none;
+}
+
+@media screen and (max-width: 1024px){
+    .view main{
+        flex-direction: column;
+    }
+    .text h1{
+        font-size: 36px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .text h1{
+        font-size: 28px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    .view main{
+        padding-top: 250px;
+    }
+    .text h1{
+        font-size: 22px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .view main{
+        padding-top: 250px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .btn .btn1{
+        margin-right: 10px;
+    }
+}
+
+
