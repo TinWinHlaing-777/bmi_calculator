@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/healthcare-1.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.text-center{
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.input-group{
+    margin-top: 20px;
+}
+#btn{
+    margin-top: 20px;
+}
+#input{
+    background: transparent;
+}
+.col-md-6{
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 15%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.text-left p{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.form-check{
+    margin-top: 20px;
+}
+#label{
+    color: #ffffff;
+}

@@ -14,20 +14,33 @@ body,
     -o-background-size: cover;
     background-size: cover;
 }
-
-nav{
-    background-color: #FFD5D5;
-}
-.navbar-brand{
+.navbar-brand h1{
     font-weight: bold;
     color: #FF7F2A;
+    font-size: 28px;
+    text-decoration: none;
+    transition: 0.6s ease-in;
+    letter-spacing: 2px;
 }
-#login{
+.navbar-brand h1:hover{
+    color: #ffffff;
+}
+#login a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #E59866;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     border: none;
-    background-color: #E5D5FF;
-    padding: 5px 20px;
+    background-color: #ffffff;
+    padding: 5px 10px;
     border-radius: 10px;
+    transition: 0.6s ease-in;
     font-weight: bold;
+}
+#login a:hover{
+    color: #ffffff;
+    background-color: #E59866;
 }
 .view main{
     display: flex;
